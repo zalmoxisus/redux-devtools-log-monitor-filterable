@@ -4,3 +4,4 @@ node_modules
 lib
 coverage
 .idea
+package-lock.json
