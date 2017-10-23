@@ -3,9 +3,7 @@
   "version": "1.2.2",
   "description": "A composable monitor for Redux DevTools with the ability to filter actions.",
   "main": "lib/index.js",
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "scripts": {
     "clean": "rimraf lib",
     "build": "babel src --out-dir lib",
@@ -18,15 +16,7 @@
     "type": "git",
     "url": "https://github.com/zalmoxisus/redux-devtools-filter-actions.git"
   },
-  "keywords": [
-    "redux",
-    "devtools",
-    "flux",
-    "react",
-    "hot reloading",
-    "time travel",
-    "live edit"
-  ],
+  "keywords": ["redux", "devtools", "flux", "react", "hot reloading", "time travel", "live edit"],
   "author": "Mihail Diordiev <zalmoxisus@gmail.com> (https://github.com/zalmoxisus)",
   "license": "MIT",
   "bugs": {
@@ -52,7 +42,7 @@
     "webpack": "^1.11.0"
   },
   "peerDependencies": {
-    "react": "^0.14.9 || ^15.3.0",
+    "react": "^0.14.9 || ^15.3.0 | ^16.0.0",
     "redux-devtools": "^3.4.0"
   },
   "dependencies": {
